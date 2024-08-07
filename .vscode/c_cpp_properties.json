@@ -1,0 +1,24 @@
+{
+   "configurations": [
+      {
+         "name": "ATmega4809-AVRGCC",
+         "includePath": [
+            "${workspaceFolder}/**",
+            "~/Library/avr-atpack/include/",
+            "~/Library/avr-toolchain/**",
+            "~/Library/avr-atpack/include/avr/"
+         ],
+         "defines": [
+            "__GNUC__=5",
+            "__GNUC_MINOR__=4",
+            "__ATmega4809__",
+            "__AVR_ATmega4809__",
+            "__AVR_DEV_LIB_NAME__=m4809"
+         ],
+         "cStandard": "c99",
+         "cppStandard": "c++03",
+         "intelliSenseMode": "gcc-x86"
+      }
+   ],
+   "version": 4
+}
